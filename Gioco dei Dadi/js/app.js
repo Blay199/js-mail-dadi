@@ -1,4 +1,4 @@
 // creare dado per utente
-let userDice = math.floor(math.random() *7)
+let userDice = Math.floor(Math.random() *7)
 // creare dado per la macchina
-let masterDice = math.floor(math.random() *7)
+let masterDice = Math.floor(Math.random() *7)
