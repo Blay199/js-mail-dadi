@@ -1,4 +1,20 @@
 // creare dado per utente
-let userDice = Math.floor(Math.random() *7)
+let userDice = parseInt ( Math.floor(Math.random() *7))
 // creare dado per la macchina
-let masterDice = Math.floor(Math.random() *7)
+let masterDice = parseInt ( Math.floor(Math.random() *7))
+
+console.log (userDice, masterDice)
+
+// dadi a confronto
+
+if (userDice > masterDice) {
+    console.log ('YOU ARE THE DICE KINS!!!!')
+} 
+
+if (userDice == masterDice) {
+    console.log ('YOU CAN DO BETTER!')
+}
+
+if (userDice < masterDice) {
+    console.log ('YOU JUST A MISERABLE PEASENT...')
+}
