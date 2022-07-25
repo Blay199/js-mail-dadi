@@ -13,7 +13,7 @@ for (let i = 0; i < iscritti.length; i++) {
     }
 } 
 
-if (trovaton = true) {
+if (trovato == true) {
     console.log ('Email già registrata');
 } else {
     console.log ('Email non registrata');
