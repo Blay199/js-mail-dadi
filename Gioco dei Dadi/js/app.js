@@ -8,7 +8,7 @@ console.log (userDice, masterDice)
 // dadi a confronto
 
 if (userDice > masterDice) {
-    console.log ('YOU ARE THE DICE KINS!!!!')
+    console.log ('YOU ARE THE DICE KING!!!!')
 } 
 
 if (userDice == masterDice) {
